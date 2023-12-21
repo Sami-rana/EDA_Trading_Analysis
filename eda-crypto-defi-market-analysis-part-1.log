@@ -1,0 +1,83 @@
+8.5s 1 Collecting yfinance
+8.5s 2 Downloading yfinance-0.2.31-py2.py3-none-any.whl (65 kB)
+8.6s 3 [?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/65.6 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m65.6/65.6 kB[0m [31m2.6 MB/s[0m eta [36m0:00:00[0m
+8.6s 4 [?25hRequirement already satisfied: pandas>=1.3.0 in /opt/conda/lib/python3.10/site-packages (from yfinance) (2.0.3)
+8.6s 5 Requirement already satisfied: numpy>=1.16.5 in /opt/conda/lib/python3.10/site-packages (from yfinance) (1.23.5)
+8.6s 6 Requirement already satisfied: requests>=2.31 in /opt/conda/lib/python3.10/site-packages (from yfinance) (2.31.0)
+8.6s 7 Collecting multitasking>=0.0.7 (from yfinance)
+8.6s 8 Downloading multitasking-0.0.11-py3-none-any.whl (8.5 kB)
+8.6s 9 Requirement already satisfied: lxml>=4.9.1 in /opt/conda/lib/python3.10/site-packages (from yfinance) (4.9.3)
+8.6s 10 Requirement already satisfied: appdirs>=1.4.4 in /opt/conda/lib/python3.10/site-packages (from yfinance) (1.4.4)
+8.6s 11 Requirement already satisfied: pytz>=2022.5 in /opt/conda/lib/python3.10/site-packages (from yfinance) (2023.3)
+8.6s 12 Requirement already satisfied: frozendict>=2.3.4 in /opt/conda/lib/python3.10/site-packages (from yfinance) (2.3.8)
+8.7s 13 Collecting peewee>=3.16.2 (from yfinance)
+8.7s 14 Downloading peewee-3.17.0.tar.gz (2.9 MB)
+8.8s 15 [?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/2.9 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━[0m [32m2.2/2.9 MB[0m [31m67.3 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m2.9/2.9 MB[0m [31m70.9 MB/s[0m eta [36m0:00:01[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.9/2.9 MB[0m [31m37.3 MB/s[0m eta [36m0:00:00[0m
+22.1s 16 [?25h  Installing build dependencies ... [?25l- \ | / done
+22.9s 17 [?25h  Getting requirements to build wheel ... [?25l- done
+23.4s 18 [?25h  Preparing metadata (pyproject.toml) ... [?25l- done
+23.4s 19 [?25hRequirement already satisfied: beautifulsoup4>=4.11.1 in /opt/conda/lib/python3.10/site-packages (from yfinance) (4.12.2)
+23.4s 20 Requirement already satisfied: html5lib>=1.1 in /opt/conda/lib/python3.10/site-packages (from yfinance) (1.1)
+23.4s 21 Requirement already satisfied: soupsieve>1.2 in /opt/conda/lib/python3.10/site-packages (from beautifulsoup4>=4.11.1->yfinance) (2.3.2.post1)
+23.4s 22 Requirement already satisfied: six>=1.9 in /opt/conda/lib/python3.10/site-packages (from html5lib>=1.1->yfinance) (1.16.0)
+23.4s 23 Requirement already satisfied: webencodings in /opt/conda/lib/python3.10/site-packages (from html5lib>=1.1->yfinance) (0.5.1)
+23.5s 24 Requirement already satisfied: python-dateutil>=2.8.2 in /opt/conda/lib/python3.10/site-packages (from pandas>=1.3.0->yfinance) (2.8.2)
+23.5s 25 Requirement already satisfied: tzdata>=2022.1 in /opt/conda/lib/python3.10/site-packages (from pandas>=1.3.0->yfinance) (2023.3)
+23.5s 26 Requirement already satisfied: charset-normalizer<4,>=2 in /opt/conda/lib/python3.10/site-packages (from requests>=2.31->yfinance) (3.1.0)
+23.5s 27 Requirement already satisfied: idna<4,>=2.5 in /opt/conda/lib/python3.10/site-packages (from requests>=2.31->yfinance) (3.4)
+23.5s 28 Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/conda/lib/python3.10/site-packages (from requests>=2.31->yfinance) (1.26.15)
+23.5s 29 Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/lib/python3.10/site-packages (from requests>=2.31->yfinance) (2023.7.22)
+23.6s 30 Building wheels for collected packages: peewee
+32.4s 31 Building wheel for peewee (pyproject.toml) ... [?25l- \ | / done
+32.4s 32 [?25h  Created wheel for peewee: filename=peewee-3.17.0-cp310-cp310-linux_x86_64.whl size=290463 sha256=de53ede0eb5daabe54ead4a8cff967124be8ad37acf4888e5e881360848990a3
+32.4s 33 Stored in directory: /root/.cache/pip/wheels/c7/70/ad/212867e96e7004265a69c4aa5dcff00a95f547a67ba26e7e76
+32.4s 34 Successfully built peewee
+40.6s 35 Installing collected packages: peewee, multitasking, yfinance
+41.2s 36 Successfully installed multitasking-0.0.11 peewee-3.17.0 yfinance-0.2.31
+42.0s 37 Note: you may need to restart the kernel to use updated packages.
+42.8s 38 <class 'pandas.core.frame.DataFrame'>
+42.8s 39 RangeIndex: 848 entries, 0 to 847
+42.8s 40 Data columns (total 3 columns):
+42.8s 41 #   Column          Non-Null Count  Dtype
+42.8s 42 ---  ------          --------------  -----
+42.8s 43 0   Project         848 non-null    object
+42.8s 44 1   Month           848 non-null    object
+42.8s 45 2   Monthly Volume  848 non-null    object
+42.8s 46 dtypes: object(3)
+42.8s 47 memory usage: 20.0+ KB
+43.0s 48 
+43.0s 49 Missing Values in the Entire DataFrame?
+43.0s 50 False
+43.0s 51 
+43.0s 52 Missing Values in Each Column?
+43.0s 53 Project           False
+43.0s 54 Month             False
+43.0s 55 Monthly Volume    False
+43.0s 56 dtype: bool
+43.4s 57 <class 'pandas.core.frame.DataFrame'>
+43.4s 58 RangeIndex: 848 entries, 0 to 847
+43.4s 59 Data columns (total 3 columns):
+43.4s 60 #   Column          Non-Null Count  Dtype
+43.4s 61 ---  ------          --------------  -----
+43.4s 62 0   Project         848 non-null    object
+43.4s 63 1   Month           848 non-null    datetime64[ns]
+43.4s 64 2   Monthly_Volume  848 non-null    int64
+43.4s 65 dtypes: datetime64[ns](1), int64(1), object(1)
+43.4s 66 memory usage: 20.0+ KB
+46.1s 67 [*********************100%%**********************]  1 of 1 completed
+51.9s 68 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+51.9s 69 warn(
+51.9s 70 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+51.9s 71 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+52.4s 72 [NbConvertApp] Writing 680407 bytes to __notebook__.ipynb
+54.1s 73 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+54.1s 74 warn(
+54.1s 75 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+54.2s 76 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+55.3s 77 [NbConvertApp] Support files will be in __results___files/
+55.3s 78 [NbConvertApp] Making directory __results___files
+55.3s 79 [NbConvertApp] Making directory __results___files
+55.3s 80 [NbConvertApp] Making directory __results___files
+55.3s 81 [NbConvertApp] Making directory __results___files
+55.3s 82 [NbConvertApp] Making directory __results___files
+55.3s 83 [NbConvertApp] Writing 408884 bytes to __results__.html
